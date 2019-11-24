@@ -9,7 +9,11 @@
     <title>St John New Zealand - Here for Life</title>
     <?php wp_head(); ?>
 </head>
-    <body>
-        <h1>st john new zealand</h1>
-    </body>
+<body>
+    <h1>st john new zealand</h1>
+</body>
+
+
+<?php wp_footer(); ?>
+</body>
 </html>
