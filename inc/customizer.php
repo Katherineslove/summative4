@@ -19,18 +19,35 @@ function mytheme_customize_register($wp_customize) {
 
     //-------------------GET TO KNOW US------------------
 
-    $wp_customize->add_section( '2019_about' , array(
-        'title'      => __( 'Footer Information', '2019stJohn' ),
+    $wp_customize->add_section( '2019_aboutTextSection' , array(
+        'title'      => __( 'Get To Know Us', '2019stJohn' ),
         'priority'   => 35,
     ));
-    $wp_customize->add_setting( '1902_FooterText' , array(
+    $wp_customize->add_setting( '2019_aboutText' , array(
         'transport' => 'refresh',
     ));
-    $wp_customize->add_control(new WP_Customize_Control($wp_customize, '2019_aboutText', array(
+    $wp_customize->add_control(new WP_Customize_Control($wp_customize, '2019_aboutTextControl', array(
         'label'          => __( 'Get To Know Us', '2019stJohn' ),
-        'section'        => '2019_about',
-        'settings'       => '2019_aboutText',
-        'type'           => 'text'
+        'section'        => '2019_aboutTextSection',
+        'settings'       => '2019_aboutText'
+    )));
+
+    //---------------SERVICES SECTION------------------
+
+    $wp_customize->add_section( '2019servicesBackground' , array(
+        'title'      => __( 'Services Section Image', '2019stJohn' ),
+        'priority'   => 35,
+    ) );
+
+    $wp_customize->add_setting( '2019servicesBackgroundDisplay' , array(
+        'transport'   => 'refresh',
+    ) );
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize,'2019_servicesBackgroundDisplay',array(
+        'label'      => __('Header Image', '2019stJohn' ),
+        'section'    => '2019servicesBackground',
+        'settings'   => '2019servicesBackgroundDisplay',
+        'context'    => '2019_servicesBackgroundDisplay'
     )));
 }
 add_action('customize_register', 'mytheme_customize_register');
@@ -51,7 +68,11 @@ function mytheme_customize_css()
         }
 
         .aboutSection {
-            background-color: red;
+            background-color: <?php echo get_theme_mod('1902_navBackgroundColour', '#ffffff');  ?>;
+        }
+
+        .servicesSection {
+            background-color: <?php echo get_theme_mod('1902_navBackgroundColour', '#ffffff');  ?>;
         }
     </style>
     <?php

@@ -1,8 +1,20 @@
-/* .headerImage {
-  background-image: url("../images/stjohns_1109.jpg");
-  opacity: 0.75;
-  height: 50vh;
-  background-position: center; /* Center the image
-  background-repeat: no-repeat;
-  background-size: cover;
-/* } */
+.headerImage {
+    opacity: 0.75;
+    height: 55vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutSection {
+    height: 20vh;
+    width: 100vw;
+    border: 2px solid black;
+}
+
+.servicesSection {
+    height: 20vh;
+    width: 100vw;
+    border: 2px solid black;
+}

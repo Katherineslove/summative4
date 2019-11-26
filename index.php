@@ -18,10 +18,18 @@
 <?php endif; ?>
 
 <div class="aboutSection">
-
+    <h1>this is the get to know us section</h1>
 </div>
 
-
+<?php if (get_theme_mod('2019servicesBackgroundDisplay')): ?>
+    <div class="row">
+        <img src="<?php echo get_theme_mod('2019servicesBackgroundDisplay');  ?>"class="servicesSection p-0">
+    </div>
+<?php else: ?>
+    <div class="servicesSection">
+        <h1>this is the services section</h1>
+    </div>
+<?php endif; ?>
 
 
 <?php get_footer(); ?>
