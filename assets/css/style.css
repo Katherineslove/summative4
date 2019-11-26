@@ -1,4 +1,40 @@
+.topNAV {
+    width: 70%;
+    height: 20%;
+    background-color: white;
+    position:relative;
+    top: 10%;
+    left: 15%;
+    border: 2px solid black;
+}
+
+.logo {
+    width: 30%;
+    height: 119px;
+    background-color: black;
+    position: relative;
+    margin-left: .046rem;
+}
+
+.siteName{
+    color: white;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.links {
+    width: 63%;
+}
+
+.nav-link{
+    padding-right: 2.5rem !important;
+}
+
 .headerImage {
+    background-image: url("../images/stjohns_1109.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     opacity: 0.75;
     height: 55vh;
     width: 100vw;
@@ -21,6 +57,10 @@
 }
 
 .servicesSection {
+    background-image: url("../images/stjohns_1109.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     opacity: 0.6;
     height: 70vh;
     width: 100vw;
