@@ -59,3 +59,7 @@
 .copyright {
     color: white;
 }
+
+h2,p {
+    font-family: 'Montserrat', sans-serif;
+}

@@ -12,6 +12,13 @@ function addCustomThemeStyles(){
 
 add_action('wp_enqueue_scripts', 'addCustomThemeStyles');
 
+function add_google_fonts() {
+    wp_enqueue_style( 'add_google_fonts', 'https://fonts.googleapis.com/css?family=Montserrat&display=swap', false );
+}
+
+add_action( 'wp_enqueue_scripts', 'add_google_fonts' );
+
+
 function addCustomMenus_2019(){
     add_theme_support('menus');
     register_nav_menu('top_navigation', __('The top navigation is located at the top of each page.', '2019stJohn'));
