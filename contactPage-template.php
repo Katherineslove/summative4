@@ -1,16 +1,16 @@
 <?php
 /*
-Template Name: About Us
+Template Name: Contact Page
 Template Post Type: page
 */
 ?>
 
 <?php get_header(); ?>
 
-<?php if (get_theme_mod('2019aboutImageDisplay')): ?>
+<?php if (get_theme_mod('2019contactImageDisplay')): ?>
     <div class="container-fluid p-0">
         <div class="headerImage">
-            <img src="<?php echo get_theme_mod('2019aboutImageDisplay');  ?>" class="aboutImage">
+            <img src="<?php echo get_theme_mod('2019contactImageDisplay');  ?>" class="contactImage">
             <!-- <h1 class="display-3 headerText"><?php echo get_bloginfo('name'); ?></h1> -->
         </div>
     </div>
@@ -23,7 +23,6 @@ Template Post Type: page
         </div>
     </div>
 <?php endif; ?>
-
 
 <div class="container mt-5">
     <div class="row">

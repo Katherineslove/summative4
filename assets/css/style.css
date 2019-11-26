@@ -2,9 +2,16 @@
     opacity: 0.75;
     height: 55vh;
     width: 100vw;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+
+.aboutImage{
+    height: 55vh;
+    width: 100vw;
+}
+
+.contactImage{
+    height: 55vh;
+    width: 100vw;
 }
 
 .aboutSection {

@@ -16,6 +16,7 @@ function mytheme_customize_register($wp_customize) {
         'settings'   => '2019headerImageDisplay',
         'context'    => '2019_headerImageDisplay'
     )));
+
     //-----------------ABOUT PAGE IMAGE------------------
 
     $wp_customize->add_setting( '2019aboutImageDisplay' , array(
@@ -27,6 +28,19 @@ function mytheme_customize_register($wp_customize) {
         'section'    => '2019headerImage',
         'settings'   => '2019aboutImageDisplay',
         'context'    => '2019_aboutImageDisplay'
+    )));
+
+    //-----------------CONTACT PAGE IMAGE------------------
+
+    $wp_customize->add_setting( '2019contactImageDisplay' , array(
+        'transport'   => 'refresh',
+    ) );
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize,'2019_contactImageDisplay',array(
+        'label'      => __('Contact Page Image', '2019stJohn' ),
+        'section'    => '2019headerImage',
+        'settings'   => '2019contactImageDisplay',
+        'context'    => '2019_contactImageDisplay'
     )));
 
     //-------------------GET TO KNOW US------------------
@@ -87,16 +101,6 @@ function mytheme_customize_css()
 {
     ?>
     <style type="text/css">
-        .headerImage {
-            background-image: <?php echo get_theme_mod('2019headerImageDisplay', '../images/stjohns_1109.jpg');  ?>;
-            opacity: 0.75;
-            height: 55vh;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            width: inherit;
-        }
-
         .aboutSection {
             background-color: <?php echo get_theme_mod('2019_aboutText', '#ffffff');  ?>;
         }
