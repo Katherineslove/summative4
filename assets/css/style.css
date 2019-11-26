@@ -28,3 +28,10 @@
 .navColour {
     background-color: #464646;
 }
+
+.navigation{
+    height: 10%;
+    width: 50%;
+    background-color: red;
+    z-index: 2;
+}
