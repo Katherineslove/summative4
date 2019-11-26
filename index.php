@@ -17,10 +17,18 @@
     </div>
 <?php endif; ?>
 
-<div class="aboutSection">
-    <h1>this is the get to know us section</h1>
-</div>
+<?php if (have_posts()): the_post(); ?>
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <div class="aboutSection">
+                <?php the_content(); ?>
+            </div>
+        </div>
+    </div>
+<?php endif; ?>
 
+
+<br><br><br><br><br>
 <?php if (get_theme_mod('2019servicesBackgroundDisplay')): ?>
     <div class="row">
         <img src="<?php echo get_theme_mod('2019servicesBackgroundDisplay');  ?>"class="servicesSection p-0">
@@ -31,14 +39,14 @@
     </div>
 <?php endif; ?>
 
-<?php if (get_theme_mod('2019newsSectionDisplay')): ?>
-    <div class="row">
-        <img src="<?php echo get_theme_mod('2019newsSectionDisplay');  ?>"class="newsSection p-0">
-    </div>
+<!-- <?php if (get_theme_mod('2019newsSectionDisplay')): ?>
+<div class="row">
+<img src="<?php echo get_theme_mod('2019newsSectionDisplay');  ?>"class="newsSection p-0">
+</div>
 <?php else: ?>
-    <div class="newsSection">
-        <h1>this is the news section</h1>
-    </div>
+<div class="newsSection">
+<h1>this is the news section</h1>
+</div>
 <?php endif; ?>
 
 <?php get_footer(); ?>

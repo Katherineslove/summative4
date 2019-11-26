@@ -9,8 +9,8 @@
 
 .aboutSection {
     height: 20vh;
-    width: 100vw;
-    border: 2px solid black;
+    width: 80vw;
+    margin-top: 5%;
 }
 
 .servicesSection {
@@ -62,4 +62,8 @@
 
 h2,p {
     font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 20px;
 }
