@@ -18,7 +18,7 @@
 <?php endif; ?>
 
 <?php if (have_posts()): the_post(); ?>
-    <div class="row">
+    <div class="row m-0">
         <div class="col d-flex justify-content-center">
             <div class="aboutSection">
                 <?php the_content(); ?>
@@ -27,11 +27,9 @@
     </div>
 <?php endif; ?>
 
-
-<br><br><br><br><br>
 <?php if (get_theme_mod('2019servicesBackgroundDisplay')): ?>
-    <div class="row">
-        <img src="<?php echo get_theme_mod('2019servicesBackgroundDisplay');  ?>"class="servicesSection p-0">
+    <div class="row m-0">
+        <img src="<?php echo get_theme_mod('2019servicesBackgroundDisplay');  ?>"class="servicesSection">
     </div>
 <?php else: ?>
     <div class="servicesSection">
@@ -47,6 +45,6 @@
 <div class="newsSection">
 <h1>this is the news section</h1>
 </div>
-<?php endif; ?>
+<?php endif; ?> -->
 
 <?php get_footer(); ?>
