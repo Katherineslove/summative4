@@ -7,10 +7,10 @@ Template Post Type: page
 
 <?php get_header(); ?>
 
-<?php if (get_theme_mod('2019headerImageDisplay')): ?>
+<?php if (get_theme_mod('2019aboutImageDisplay')): ?>
     <div class="container-fluid p-0">
         <div class="headerImage">
-            <img src="<?php echo get_theme_mod('2019headerImageDisplay');  ?>" class="headerImage">
+            <img src="<?php echo get_theme_mod('2019aboutImageDisplay');  ?>" class="headerImage">
             <!-- <h1 class="display-3 headerText"><?php echo get_bloginfo('name'); ?></h1> -->
         </div>
     </div>
@@ -36,6 +36,8 @@ Template Post Type: page
         </div>
     </div>
 </div>
+
+<?php get_footer(); ?>
 
 <?php wp_footer(); ?>
 </body>
