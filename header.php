@@ -11,12 +11,8 @@
 </head>
 <body>
 
-    <div class="navigation">
-        <h1>this is the nav</h1>
-    </div>
 
-
-    <!-- <?php if(has_nav_menu( 'top_navigation' )): ?>
+    <?php if(has_nav_menu( 'top_navigation' )): ?>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark navColour" role="navigation">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#top_navigation" aria-controls="top_navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,4 +38,4 @@
                 <button class="btn text-white ml-3 searchButton" type="submit">Search</button>
             </form>
         </nav>
-    <?php endif; ?> -->
+    <?php endif; ?>
