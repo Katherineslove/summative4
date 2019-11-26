@@ -4,9 +4,9 @@
             <div class="row">
                 <div class="col">
                     <?php wp_nav_menu( array(
-                        'theme_location' => 'bottom_navigation',
-                        'container' => 'div',
-                        'menu_class' => 'footerNav'
+                        'theme_location'  => 'bottom_navigation',
+                        'container'       => '',
+                        'menu_class'      => 'footerNav'
                     )); ?>
                 </div>
             </div>
