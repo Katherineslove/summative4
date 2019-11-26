@@ -113,3 +113,30 @@ h2,p {
 p {
     font-size: 20px;
 }
+
+@media only screen and (max-width: 800px) {
+    .headerImage {
+        height: 35vh;
+    }
+
+    .topNAV{
+        top: 0;
+        height: 23%;
+        width: 100vw;
+        left: 0;
+        border: 0;
+    }
+
+    .logo {
+        width: 23%;
+        height: 84px;
+    }
+
+    .footerBar{
+        margin-top: 22%;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
