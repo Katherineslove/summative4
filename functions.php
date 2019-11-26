@@ -26,19 +26,6 @@ function register_navwalker(){
 }
 add_action( 'after_setup_theme', 'register_navwalker' );
 
-register_default_headers(array(
-    'defaultImage' => array(
-        'url'           => get_template_directory_uri() . '/assets/images/stjohns_1109.jpg',
-        'thumbnail_url' => get_template_directory_uri() . '/assets/images/stjohns_1109.jpg',
-        'description'   => __('The default image for the custom header.', '2019stJohn')
-    )
-));
-
-$customHeaderDefaults = array(
-    'default-image' => get_template_directory_uri() . '/assets/images/stjohns_1109.jpg'
-);
-add_theme_support('custom-header', $customHeaderDefaults);
-
 
 require_once get_template_directory() . '/inc/customizer.php';
 
