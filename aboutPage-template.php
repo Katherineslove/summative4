@@ -7,16 +7,30 @@ Template Post Type: page
 
 <?php get_header(); ?>
 
+<?php if (get_theme_mod('2019headerImageDisplay')): ?>
+    <div class="container-fluid p-0">
+        <div class="headerImage">
+            <img src="<?php echo get_theme_mod('2019headerImageDisplay');  ?>" class="headerImage">
+            <!-- <h1 class="display-3 headerText"><?php echo get_bloginfo('name'); ?></h1> -->
+        </div>
+    </div>
+<?php else: ?>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="display-3 headerText"><?php echo get_bloginfo('name') ?></h1>
+            </div>
+        </div>
+    </div>
+<?php endif; ?>
+
+
 <div class="container mt-5">
     <div class="row">
         <div class="col">
             <?php if( have_posts() ): ?>
                 <?php while( have_posts() ): the_post(); ?>
-                    <div class="card mt-3 mb-3">
-                        <div class="card-body">
-                            <?php the_content(); ?>
-                        </div>
-                    </div>
+                    <?php the_content(); ?>
                 <?php endwhile; ?>
             <?php endif; ?>
         </div>
