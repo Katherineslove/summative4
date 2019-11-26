@@ -37,11 +37,6 @@
 <?php endif; ?>
 
 
-
-
-
-
-
 <?php if (get_theme_mod('2019newsSectionDisplay')): ?>
     <div class="row">
         <img src="<?php echo get_theme_mod('2019newsSectionDisplay');  ?>"class="newsSection p-0">
