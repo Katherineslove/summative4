@@ -4,7 +4,6 @@
     <div class="container-fluid p-0">
         <div class="headerImage">
             <img src="<?php echo get_theme_mod('2019headerImageDisplay');  ?>" class="headerImage">
-            <!-- <h1 class="display-3 headerText"><?php echo get_bloginfo('name'); ?></h1> -->
         </div>
     </div>
 <?php else: ?>
@@ -37,14 +36,14 @@
     </div>
 <?php endif; ?>
 
-<!-- <?php if (get_theme_mod('2019newsSectionDisplay')): ?>
-<div class="row">
-<img src="<?php echo get_theme_mod('2019newsSectionDisplay');  ?>"class="newsSection p-0">
-</div>
+<?php if (get_theme_mod('2019newsSectionDisplay')): ?>
+    <div class="row">
+        <img src="<?php echo get_theme_mod('2019newsSectionDisplay');  ?>"class="newsSection p-0">
+    </div>
 <?php else: ?>
-<div class="newsSection">
-<h1>this is the news section</h1>
-</div>
-<?php endif; ?> -->
+    <div class="newsSection">
+        <h1>this is the news section</h1>
+    </div>
+<?php endif; ?>
 
 <?php get_footer(); ?>

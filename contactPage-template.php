@@ -11,7 +11,6 @@ Template Post Type: page
     <div class="container-fluid p-0">
         <div class="headerImage">
             <img src="<?php echo get_theme_mod('2019contactImageDisplay');  ?>" class="contactImage">
-            <!-- <h1 class="display-3 headerText"><?php echo get_bloginfo('name'); ?></h1> -->
         </div>
     </div>
 <?php else: ?>
