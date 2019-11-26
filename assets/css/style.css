@@ -35,3 +35,27 @@
     background-color: red;
     z-index: 2;
 }
+
+.footerNav{
+    list-style: none;
+    list-style-position: inside;
+}
+
+.footerNav:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.footerNav li{
+    float: left;
+    margin-right: 20px;
+}
+
+.footerNav li a{
+    color: white;
+}
+
+.copyright {
+    color: white;
+}
