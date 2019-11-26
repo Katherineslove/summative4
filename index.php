@@ -39,37 +39,16 @@
         </nav>
         <?php endif; ?>
     </div>
-</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <?php if (get_theme_mod('2019headerImageDisplay')): ?>
-
-<?php else: ?>
-    <!-- <div class="container">
-        <div class="row">
-            <div class="col text-center">
-                <h1 class="display-3 headerText"><?php echo get_bloginfo('name') ?></h1>
+    <?php if (have_posts()): the_post(); ?>
+        <div class="row m-0">
+            <div class="col d-flex justify-content-center">
+                <div class="aboutSection">
+                    <?php the_content(); ?>
+                </div>
             </div>
         </div>
-    </div> -->
-<?php endif; ?>
+    <?php endif; ?>
+</div>
 
-<!-- <?php get_footer(); ?> -->
+<?php get_footer(); ?>
