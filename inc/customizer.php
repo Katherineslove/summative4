@@ -44,10 +44,28 @@ function mytheme_customize_register($wp_customize) {
     ) );
 
     $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize,'2019_servicesBackgroundDisplay',array(
-        'label'      => __('Header Image', '2019stJohn' ),
+        'label'      => __('Services Section', '2019stJohn' ),
         'section'    => '2019servicesBackground',
         'settings'   => '2019servicesBackgroundDisplay',
         'context'    => '2019_servicesBackgroundDisplay'
+    )));
+
+    //---------------NEWS SECTION------------------
+
+    $wp_customize->add_section( '2019newsSection' , array(
+        'title'      => __( 'News Section', '2019stJohn' ),
+        'priority'   => 35,
+    ) );
+
+    $wp_customize->add_setting( '2019newsSectionDisplay' , array(
+        'transport'   => 'refresh',
+    ) );
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize,'2019_newsSectionDisplay',array(
+        'label'      => __('News Section', '2019stJohn' ),
+        'section'    => '2019newsSection',
+        'settings'   => '2019newsSectionDisplay',
+        'context'    => '2019_newsSectionDisplay'
     )));
 }
 add_action('customize_register', 'mytheme_customize_register');
@@ -68,11 +86,15 @@ function mytheme_customize_css()
         }
 
         .aboutSection {
-            background-color: <?php echo get_theme_mod('1902_navBackgroundColour', '#ffffff');  ?>;
+            background-color: <?php echo get_theme_mod('2019_aboutText', '#ffffff');  ?>;
         }
 
         .servicesSection {
-            background-color: <?php echo get_theme_mod('1902_navBackgroundColour', '#ffffff');  ?>;
+            background-color: <?php echo get_theme_mod('2019servicesBackgroundDisplay', '#f6b243');  ?>;
+        }
+
+        .newsSection {
+            background-color: <?php echo get_theme_mod('2019newsSectionDisplay', '#4ca746');  ?>;
         }
     </style>
     <?php

@@ -18,3 +18,13 @@
     width: 100vw;
     border: 2px solid black;
 }
+
+.newsSection {
+    height: 20vh;
+    width: 100vw;
+    border: 2px solid black;
+}
+
+.navColour {
+    background-color: #464646;
+}
