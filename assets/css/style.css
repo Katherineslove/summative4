@@ -9,11 +9,15 @@
 }
 
 .logo {
-    width: 20%;
-    height: 90px;
+    height: 100%;
     background-color: black;
-    position: relative;
-    margin-left: 0;
+    width: 22%;
+    margin-right: 5%;
+}
+
+.logoImage{
+    width: 100vw;
+    height: 10vh;
 }
 
 .siteName{
@@ -23,7 +27,7 @@
 }
 
 .links {
-    width: 69%;
+    width: 50%;
 }
 
 .nav-link{
@@ -32,6 +36,16 @@
 
 .headerImage {
     background-image: url("../images/stjohns_1109.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.75;
+    height: 55vh;
+    width: 100vw;
+}
+
+.aboutImage {
+    background-image: url("../images/ambobag.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
