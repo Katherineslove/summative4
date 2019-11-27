@@ -11,8 +11,7 @@
 .logo {
     height: 100%;
     background-color: black;
-    width: 22%;
-    margin-right: 5%;
+    margin-right: 3%;
 }
 
 .logoImage{
@@ -21,14 +20,25 @@
 }
 
 .siteName{
-    color: white;
+    color: black;
     text-align: center;
     padding-top: 4%;
 }
 
-.links {
-    width: 50%;
+.links li {
+    background-color: grey;
+    border: 1px solid black;
+    width: 21%;
+    left: 9%;
+    position: relative;
+    padding: 1%;
+    margin-right: 4%;
 }
+
+.links li a {
+    text-align: center;
+}
+
 
 .nav-link{
     padding-right: 2.5rem !important;
