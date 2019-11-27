@@ -1,6 +1,6 @@
 <?php if(has_nav_menu( 'bottom_navigation' )): ?>
     <footer class="navColour p-4 footerBar">
-        <div class="container">
+        <div class="container footerContainer">
             <div class="row">
                 <div class="col-9">
                     <?php wp_nav_menu( array(
@@ -9,10 +9,8 @@
                         'menu_class' => 'footerNav'
                     )); ?>
                 </div>
-                <div class="col-3">
-                    <div class="copyright">
-                        © 2019 St John New Zealand
-                    </div>
+                <div class="col-3 copyright">
+                    © 2019 St John New Zealand
                 </div>
             </div>
         </div>

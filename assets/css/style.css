@@ -9,11 +9,11 @@
 }
 
 .logo {
-    width: 30%;
-    height: 119px;
+    width: 20%;
+    height: 90px;
     background-color: black;
     position: relative;
-    margin-left: .046rem;
+    margin-left: 0;
 }
 
 .siteName{
@@ -23,7 +23,7 @@
 }
 
 .links {
-    width: 63%;
+    width: 69%;
 }
 
 .nav-link{
@@ -115,28 +115,49 @@ p {
 }
 
 @media only screen and (max-width: 800px) {
+    p {
+        font-size: 14px;
+    }
     .headerImage {
-        height: 35vh;
+        height: 47vh;
     }
 
     .topNAV{
         top: 0;
-        height: 23%;
+        height: 21%;
         width: 100vw;
         left: 0;
         border: 0;
     }
 
     .logo {
+        right: 11%;
         width: 23%;
-        height: 84px;
+        height: 74px;
+        margin-right: 0 !important;
+    }
+
+    .searchSection {
+        bottom: 77%;
+        left: 45%;
+        position: relative;
+    }
+
+    .button {
+        left: 78%;
+        position: relative;
     }
 
     .footerBar{
         margin-top: 22%;
     }
 
-    p {
-        font-size: 14px;
+    .footerContainer{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .copyright{
+        left: 18%;
     }
 }
