@@ -13,7 +13,7 @@
                 </div>
 
                 <div class="col-6">
-                    <button class="navbar-toggler button" type="button" data-toggle="collapse" data-target="#top_navigation" aria-controls="top_navigation" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler button" id="buttonClick" type="button" data-toggle="collapse" data-target="#top_navigation" aria-controls="top_navigation" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
@@ -44,15 +44,15 @@
         <?php endif; ?>
     </div>
 
-    <!-- <?php if (have_posts()): the_post(); ?>
-    <div class="row m-0">
-    <div class="col d-flex justify-content-center">
-    <div class="aboutSection">
-    <?php the_content(); ?>
-</div>
-</div>
-</div>
-<?php endif; ?> -->
+    <?php if (have_posts()): the_post(); ?>
+        <div class="row m-0">
+            <div class="col d-flex justify-content-center">
+                <div class="aboutSection">
+                    <?php the_content(); ?>
+                </div>
+            </div>
+        </div>
+    <?php endif; ?>
 </div>
 
 <!-- <?php get_footer(); ?> -->

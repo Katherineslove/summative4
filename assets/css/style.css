@@ -145,6 +145,12 @@ p {
     }
 }
 
+@media only screen and (max-width: 835px) {
+    p {
+        font-size: 16px;
+    }
+}
+
 @media only screen and (max-width: 800px) {
     p {
         font-size: 14px;
@@ -212,5 +218,9 @@ p {
 
     .button {
         left: 69%;
+    }
+
+    p{
+        font-size: 12px;
     }
 }
