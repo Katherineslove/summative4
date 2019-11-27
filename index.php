@@ -33,7 +33,7 @@
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div class="col-3 d-none d-lg-block d-xl-block">
                     <form action="<?php echo home_url();?>" method="get" class="d-flex justify-content-center searchSection">
                         <input type="hidden" name="post_type" value="post, movie"></input>
                         <input name="s" type="text" class="form-control border border-dark" aria-describedby="searchPosts" placeholder="search..." value="<?php the_search_query(); ?>">

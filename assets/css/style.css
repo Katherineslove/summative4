@@ -138,6 +138,13 @@ p {
     font-size: 20px;
 }
 
+
+@media only screen and (max-width: 860px) {
+    .logo{
+        left: 0;
+    }
+}
+
 @media only screen and (max-width: 800px) {
     p {
         font-size: 14px;
@@ -183,5 +190,27 @@ p {
 
     .copyright{
         left: 18%;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .logo{
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .logo{
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .logo{
+        left: 0;
+    }
+
+    .button {
+        left: 69%;
     }
 }
