@@ -212,12 +212,20 @@ p {
 }
 
 @media only screen and (max-width: 450px) {
+    .copyright {
+        flex: none;
+    }
+
+    .footerBar{
+        margin-top: 27%;
+    }
+
     .logo{
         left: 0;
     }
 
     .button {
-        left: 69%;
+        left: 27%;
     }
 
     p{

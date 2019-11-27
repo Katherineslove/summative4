@@ -7,7 +7,7 @@ function addCustomThemeStyles(){
 
     wp_enqueue_script("jquery");
     wp_enqueue_script("bootstrapJS2019", get_template_directory_uri() . "/assets/js/bootstrap.min.js", array("jquery"), "4.3.1", true);
-    wp_enqueue_script("customJS2019", get_template_directory_uri() . "/assets/js/script.js", array("jquery"), "0.0.1", true);
+    wp_enqueue_script("customJS2019", get_template_directory_uri() . "/assets/js/script.js", array("jquery"), "0.0.2", true);
 };
 
 add_action('wp_enqueue_scripts', 'addCustomThemeStyles');
