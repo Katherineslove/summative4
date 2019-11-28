@@ -39,6 +39,9 @@
     text-align: center;
 }
 
+.button {
+    border: 2px solid black !important;
+}
 
 .nav-link{
     padding-right: 2.5rem !important;
@@ -138,6 +141,21 @@ p {
     font-size: 20px;
 }
 
+.productCard{
+    border: 1px solid black;
+    padding: 2%;
+}
+
+.productCard a {
+    text-align: center;
+    color: black;
+    font-weight: 400;
+}
+
+.productCard img{
+    padding: 5%;
+    border-bottom: 1px solid black;
+}
 
 @media only screen and (max-width: 860px) {
     .logo{
@@ -212,8 +230,8 @@ p {
 }
 
 @media only screen and (max-width: 450px) {
-    .copyright {
-        flex: none;
+    .copyright h6{
+        width: 75vw !important;
     }
 
     .footerBar{
@@ -230,5 +248,12 @@ p {
 
     p{
         font-size: 12px;
+    }
+
+    .dropDown{
+        top: 0;
+        height: 65%;
+        width: 100vw;
+        background-color: red;
     }
 }

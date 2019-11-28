@@ -1,5 +1,5 @@
 <?php if(has_nav_menu( 'bottom_navigation' )): ?>
-    <footer class="navColour p-4 footerBar">
+    <footer class="navColour p-4 footerBar fixed-bottom">
         <div class="container footerContainer">
             <div class="row ">
                 <div class="col-9 d-none d-sm-block">
@@ -10,7 +10,7 @@
                     )); ?>
                 </div>
                 <div class="col-3 copyright">
-                    © 2019 St John New Zealand
+                    <h6>© 2019 St John New Zealand</h6>
                 </div>
             </div>
         </div>

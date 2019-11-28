@@ -5,5 +5,4 @@ $(document).ready(function() {
 })
 
 $( "#buttonClick" ).click(function() {
-  console.log('button clicked');
 });
