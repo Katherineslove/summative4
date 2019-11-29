@@ -23,7 +23,7 @@ function addCustomMenus_2019(){
     add_theme_support('menus');
     register_nav_menu('top_navigation', __('The top navigation is located at the top of each page.', '2019stJohn'));
     register_nav_menu('bottom_navigation', __('The bottom navigation is located at the bottom of each page.', '2019stJohn'));
-    register_nav_menu('side_navigation', __('The side navigation is located on the left of each page.', '2019stJohn'));
+    register_nav_menu('services_menu', __('The services menu is located in the services section. ', '2019stJohn'));
 }
 
 add_action('after_setup_theme', 'addCustomMenus_2019');
