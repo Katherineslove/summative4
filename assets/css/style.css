@@ -39,6 +39,8 @@
 
 .servicesLinks li a {
     text-align: center;
+    color: white !important;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .logo {

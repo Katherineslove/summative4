@@ -74,21 +74,25 @@ function mytheme_customize_register($wp_customize) {
     //---------------SERVICES SECTION------------------
 
     $wp_customize->add_section( '2019servicesBackground' , array(
-        'title'      => __( 'Services Section Image', '2019stJohn' ),
+        'title'      => __( 'Services Section Menu', '2019stJohn' ),
         'priority'   => 35,
     ) );
 
     $wp_customize->add_setting( '2019servicesBackgroundDisplay' , array(
-        'transport'   => 'refresh',
+        'default'   => 'yes',
+        'transport' => 'refresh',
     ) );
 
     $wp_customize->add_control(new WP_Customize_Control($wp_customize,'2019_servicesBackgroundDisplay',array(
-        'label'      => __('Services Section', '2019stJohn' ),
+        'label'          => __( 'Services Section?', '2019stJohn' ),
         'section'    => '2019servicesBackground',
         'settings'   => '2019servicesBackgroundDisplay',
-        'context'    => '2019_servicesBackgroundDisplay'
-    )));
-
+        'type'           => 'radio',
+        'choices'        => array(
+            'yes'   => __( 'Yes' ),
+            'no'  => __( 'No' )
+        )))
+    );
     //---------------NEWS SECTION------------------
 
     $wp_customize->add_section( '2019newsSection' , array(
@@ -114,17 +118,17 @@ function mytheme_customize_css()
 {
     ?>
     <style type="text/css">
-        .aboutSection {
-            background-color: <?php echo get_theme_mod('2019_aboutText', '#ffffff');  ?>;
-        }
+    .aboutSection {
+        background-color: <?php echo get_theme_mod('2019_aboutText', '#ffffff');  ?>;
+    }
 
-        .servicesSection {
-            background-color: <?php echo get_theme_mod('2019servicesBackgroundDisplay', '#f6b243');  ?>;
-        }
+    .servicesSection {
+        background-color: <?php echo get_theme_mod('2019servicesBackgroundDisplay', '#f6b243');  ?>;
+    }
 
-        .newsSection {
-            background-color: <?php echo get_theme_mod('2019newsSectionDisplay', '#4ca746');  ?>;
-        }
+    .newsSection {
+        background-color: <?php echo get_theme_mod('2019newsSectionDisplay', '#4ca746');  ?>;
+    }
     </style>
     <?php
 }

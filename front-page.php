@@ -51,11 +51,9 @@
         </div>
     <?php endif; ?>
 
-    <?php if (get_theme_mod('2019servicesBackgroundDisplay')): ?>
+    <?php if (get_theme_mod('2019servicesBackgroundDisplay') === 'yes'): ?>
         <div class="row m-0 servicesSection">
             <nav class="navbar navbar-expand-md navbar-light servicesNav p-0 " role="navigation">
-
-
 
                 <div class="servicesLinks">
                     <h1 class="servicesHeading">OUR SERVICES</h1>
@@ -72,9 +70,7 @@
             </nav>
         </div>
     <?php else: ?>
-        <div class="servicesSection">
-            <h1>this is the services section</h1>
-        </div>
+
     <?php endif; ?>
 
 
