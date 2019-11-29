@@ -280,6 +280,56 @@ p {
     .logo{
         left: 0;
     }
+
+    .copyright h6{
+        width: 75vw !important;
+    }
+
+    .logo{
+        left: 0;
+    }
+
+    .button {
+        left: 27%;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    .dropDown{
+        top: 0;
+        height: 65%;
+        width: 100vw;
+        background-color: red;
+    }
+
+    .servicesNav {
+        top: 4%;
+        left: 14%;
+    }
+
+    .servicesBackground{
+        margin-top: 11% !important;
+        height: 92vh;
+    }
+
+    .servicesSection {
+        margin-top: 11% !important;
+        height: 92vh;
+    }
+
+    .servicesHeading {
+        font-size: 3.3rem;
+    }
+
+    .servicesLinks li {
+        width: 100%;
+        padding: 4%;
+        margin-top: 2%;
+        margin-right: 4%;
+        margin-bottom: 2%;
+    }
 }
 
 @media only screen and (max-width: 450px) {
