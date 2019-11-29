@@ -58,7 +58,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="links">
+                <div class="servicesLinks">
                     <?php
                     wp_nav_menu( array(
                         'theme_location'    => 'services_menu',

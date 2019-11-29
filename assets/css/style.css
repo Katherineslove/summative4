@@ -11,10 +11,27 @@
 .servicesNav {
     width: 70%;
     height: 70%;
-    background-color: black;
     position:relative;
     top: 15%;
     left: 15%;
+}
+
+.servicesLinks li {
+    position: relative;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    width: 29%;
+    height: 51%;
+    left: 3%;
+    padding: 6%;
+    margin-top: 2%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+}
+
+.servicesLinks li a {
+    text-align: center;
 }
 
 .logo {
