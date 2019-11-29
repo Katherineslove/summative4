@@ -52,23 +52,26 @@
     <?php endif; ?>
 
     <?php if (get_theme_mod('2019servicesBackgroundDisplay') === 'yes'): ?>
-        <div class="row m-0 servicesSection">
-            <nav class="navbar navbar-expand-md navbar-light servicesNav p-0 " role="navigation">
+        <div class="servicesBackground">
+            <div class="row m-0 servicesSection">
+                <nav class="navbar navbar-expand-md navbar-light servicesNav p-0 " role="navigation">
 
-                <div class="servicesLinks">
-                    <h1 class="servicesHeading">OUR SERVICES</h1>
-                    <?php
-                    wp_nav_menu( array(
-                        'theme_location'    => 'services_menu',
-                        'container'         => 'div',
-                        'menu_class'        => 'nav navbar-nav',
-                        'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-                        'walker'            => new WP_Bootstrap_Navwalker(),
-                    ) );
-                    ?>
-                </div>
-            </nav>
+                    <div class="servicesLinks">
+                        <h1 class="servicesHeading">OUR SERVICES</h1>
+                        <?php
+                        wp_nav_menu( array(
+                            'theme_location'    => 'services_menu',
+                            'container'         => 'div',
+                            'menu_class'        => 'nav navbar-nav',
+                            'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                            'walker'            => new WP_Bootstrap_Navwalker(),
+                        ) );
+                        ?>
+                    </div>
+                </nav>
+            </div>
         </div>
+
     <?php else: ?>
 
     <?php endif; ?>

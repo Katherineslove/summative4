@@ -118,6 +118,13 @@
     margin-top: 3%;
 }
 
+.servicesBackground{
+    background-color: black;
+    height: 70vh;
+    width: 100vw;
+    margin-top: 7.5% !important;
+}
+
 .servicesSection {
     background-image: url("../images/paramedics.jpg");
     background-position: center;
@@ -253,10 +260,6 @@ p {
         position: relative;
     }
 
-    .footerBar{
-        margin-top: 22%;
-    }
-
     .footerContainer{
         margin-left: 0;
         margin-right: 0;
@@ -284,10 +287,6 @@ p {
         width: 75vw !important;
     }
 
-    .footerBar{
-        margin-top: 27%;
-    }
-
     .logo{
         left: 0;
     }
@@ -306,4 +305,32 @@ p {
         width: 100vw;
         background-color: red;
     }
+
+    .servicesNav {
+        top: 4%;
+        left: 11%;
+    }
+
+    .servicesBackground{
+        margin-top: 27.5% !important;
+        height: 92vh;
+    }
+
+    .servicesSection {
+        margin-top: 27.5% !important;
+        height: 92vh;
+    }
+
+    .servicesHeading {
+        font-size: 3.3rem;
+    }
+
+    .servicesLinks li {
+        width: 100%;
+        padding: 4%;
+        margin-top: 2%;
+        margin-right: 4%;
+        margin-bottom: 2%;
+    }
+
 }
