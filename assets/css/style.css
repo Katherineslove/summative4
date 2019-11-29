@@ -8,6 +8,15 @@
     border: 2px solid black;
 }
 
+.servicesNav {
+    width: 70%;
+    height: 70%;
+    background-color: black;
+    position:relative;
+    top: 15%;
+    left: 15%;
+}
+
 .logo {
     height: 100%;
     background-color: black;
@@ -84,13 +93,14 @@
 }
 
 .servicesSection {
-    background-image: url("../images/stjohns_1109.jpg");
+    background-image: url("../images/paramedics.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.6;
     height: 70vh;
     width: 100vw;
+    margin-top: 7.5% !important;
 }
 
 .newsSection {
@@ -111,10 +121,6 @@
 
 .add_to_cart_button{
     margin-left: 25% !important;
-}
-
-.footerBar {
-    bottom:0;
 }
 
 .footerNav{

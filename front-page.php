@@ -50,6 +50,37 @@
             </div>
         </div>
     <?php endif; ?>
+
+    <?php if (get_theme_mod('2019servicesBackgroundDisplay')): ?>
+        <div class="row m-0 servicesSection">
+            <nav class="navbar navbar-expand-md navbar-light servicesNav p-0 " role="navigation">
+                <button class="navbar-toggler button" id="buttonClick" type="button" data-toggle="collapse" data-target="#top_navigation" aria-controls="services_menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="links">
+                    <?php
+                    wp_nav_menu( array(
+                        'theme_location'    => 'services_menu',
+                        'container'         => 'div',
+                        'menu_class'        => 'nav navbar-nav',
+                        'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                        'walker'            => new WP_Bootstrap_Navwalker(),
+                    ) );
+                    ?>
+                </div>
+            </nav>
+        </div>
+    <?php else: ?>
+        <div class="servicesSection">
+            <h1>this is the services section</h1>
+        </div>
+    <?php endif; ?>
+
+
+
+
+
 </div>
 
 <?php get_footer(); ?>

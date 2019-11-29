@@ -82,7 +82,7 @@ function mytheme_customize_register($wp_customize) {
         'transport'   => 'refresh',
     ) );
 
-    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize,'2019_servicesBackgroundDisplay',array(
+    $wp_customize->add_control(new WP_Customize_Control($wp_customize,'2019_servicesBackgroundDisplay',array(
         'label'      => __('Services Section', '2019stJohn' ),
         'section'    => '2019servicesBackground',
         'settings'   => '2019servicesBackgroundDisplay',
