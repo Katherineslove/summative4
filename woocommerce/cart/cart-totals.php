@@ -18,7 +18,7 @@
 defined( 'ABSPATH' ) || exit;
 
 ?>
-<div class="cart_totals <?php echo ( WC()->customer->has_calculated_shipping() ) ? 'calculated_shipping' : ''; ?>">
+<div class="shoppingCart cart_totals <?php echo ( WC()->customer->has_calculated_shipping() ) ? 'calculated_shipping' : ''; ?>">
 
 	<?php do_action( 'woocommerce_before_cart_totals' ); ?>
 
@@ -103,7 +103,7 @@ defined( 'ABSPATH' ) || exit;
 
 	</table>
 
-	<div class="wc-proceed-to-checkout">
+	<div class="wc-proceed-to-checkout proceedButton">
 		<?php do_action( 'woocommerce_proceed_to_checkout' ); ?>
 	</div>
 

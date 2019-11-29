@@ -109,6 +109,14 @@
     z-index: 2;
 }
 
+.add_to_cart_button{
+    margin-left: 25% !important;
+}
+
+.footerBar {
+    bottom:0;
+}
+
 .footerNav{
     list-style: none;
     list-style-position: inside;
@@ -151,11 +159,20 @@ p {
     color: black;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1em;
 }
 
 .productCard img{
     padding: 5%;
     border-bottom: 1px solid black;
+}
+
+.shoppingCart {
+    margin-bottom: 17%;
+}
+
+.proceedButton a{
+    background-color: #f6b243 !important;
 }
 
 @media only screen and (max-width: 860px) {
