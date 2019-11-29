@@ -54,11 +54,11 @@
     <?php if (get_theme_mod('2019servicesBackgroundDisplay')): ?>
         <div class="row m-0 servicesSection">
             <nav class="navbar navbar-expand-md navbar-light servicesNav p-0 " role="navigation">
-                <button class="navbar-toggler button" id="buttonClick" type="button" data-toggle="collapse" data-target="#top_navigation" aria-controls="services_menu" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+
+
 
                 <div class="servicesLinks">
+                    <h1 class="servicesHeading">OUR SERVICES</h1>
                     <?php
                     wp_nav_menu( array(
                         'theme_location'    => 'services_menu',
