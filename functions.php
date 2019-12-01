@@ -33,9 +33,6 @@ function register_navwalker(){
 }
 add_action( 'after_setup_theme', 'register_navwalker' );
 
-
-
-
 require_once get_template_directory() . '/inc/customizer.php';
 
 
