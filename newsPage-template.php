@@ -45,9 +45,7 @@ Template Post Type: page
     <div class="container my-5">
         <div class="row">
             <div class="col">
-                <?php if (has_category('news')): ?>
-                    <?php the_content(); ?>
-                <?php endif; ?>
+                
             </div>
         </div>
     </div>

@@ -8,7 +8,7 @@
                     <?php if (get_theme_mod('2019logoImageDisplay')): ?>
                         <img src="<?php echo get_theme_mod('2019logoImageDisplay');  ?>"class="logoImage img-fluid">
                     <?php else: ?>
-                        <h1 class="siteName"><?php echo get_bloginfo('name'); ?></h1>
+                        <h1 class="text-white align-items-center"><?php echo get_bloginfo('name'); ?></h1>
                     <?php endif; ?>
                 </div>
 
