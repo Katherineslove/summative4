@@ -38,16 +38,10 @@ Template Post Type: page
                     ) );
                     ?>
                 </div>
-
-
-                <form action="<?php echo home_url();?>" method="get" class="d-none d-lg-block d-xl-block">
-                    <input name="s" type="text" class="form-control border border-dark" aria-describedby="searchPosts" placeholder="search..." value="<?php the_search_query(); ?>">
-                    <button class="btn text-black ml-3 searchButton mr-4 border border-dark" type="submit">Search</button>
-                </form>
             </nav>
         <?php endif; ?>
     </div>
-    
+
     <div class="container my-5">
         <div class="row">
             <div class="col">
