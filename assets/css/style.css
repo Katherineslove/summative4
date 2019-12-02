@@ -1,23 +1,11 @@
 .topNAV {
-    width: 70%;
+    width: 45%;
     height: 20%;
     background-color: white;
-    position:relative;
+    position: relative;
     top: 10%;
-    left: 15%;
+    left: 26%;
     border: 2px solid black;
-}
-
-.searchInput{
-    position: relative;
-    left: 10%;
-    margin-top: 33%;
-}
-
-.searchButton {
-    position: relative;
-    left: 113%;
-    margin-bottom: 21%;
 }
 
 .servicesNav {
@@ -62,7 +50,7 @@
 }
 
 .logo img{
-    width: 15vw;
+    width: 9vw;
     height: 10vh;
 }
 
@@ -76,9 +64,9 @@
     background-color: grey;
     border: 1px solid black;
     width: 16%;
-    left: 5%;
+    left: 1%;
     position: relative;
-    padding: 1%;
+    padding: 0% 3%;
     margin-right: 4%;
 }
 
@@ -284,9 +272,17 @@ p {
         width: 15vw;
     }
 
-    .links li{
-        width: 15%;
-        left: 0%;
+    .links li {
+        background-color: grey;
+        border: 1px solid black;
+        width: 16%;
+        left: 1%;
+        position: relative;
+        padding: 0% 3%;
+        margin-right: 4%;
+    }
+
+    .links li a {
         text-align: center;
     }
 

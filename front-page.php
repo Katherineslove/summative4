@@ -31,12 +31,6 @@
                     ) );
                     ?>
                 </div>
-
-
-                <form action="<?php echo home_url();?>" method="get" class="d-none d-xl-block">
-                    <input name="s" type="text" class="d-inline form-control searchInput border border-dark" aria-describedby="searchPosts" placeholder="search..." value="<?php the_search_query(); ?>">
-                    <button class="d-inline btn text-black ml-3 searchButton mr-4 border border-dark" type="submit">Search</button>
-                </form>
             </nav>
         <?php endif; ?>
     </div>
