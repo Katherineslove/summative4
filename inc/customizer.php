@@ -118,6 +118,13 @@ function mytheme_customize_css()
 {
     ?>
     <style type="text/css">
+    .headerImage {
+        background-image: url("./images/stjohns_1109.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     .aboutSection {
         background-color: <?php echo get_theme_mod('2019_aboutText', '#ffffff');  ?>;
     }
