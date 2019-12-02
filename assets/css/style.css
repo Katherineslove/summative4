@@ -224,6 +224,18 @@ p {
     background-color: #f6b243 !important;
 }
 
+.orderButton{
+    background-color: #f6b243 !important;
+}
+
+.checkoutFields {
+    width: 65vw;
+}
+
+.billingFields{
+    margin-right: 4%;
+}
+
 @media only screen and (max-width: 1450px) {
     .logo{
         left: 0;
