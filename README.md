@@ -1,6 +1,6 @@
 # Content Management System - St John New Zealand
 ### Disclaimer
-This is for a school project and is not the real St John New Zealand Website. The real St John site can be found [here](https://www.stjohn.org.nz/)
+This is for a school project and is not the real St John New Zealand Website. The real St John site can be found [here].(https://www.stjohn.org.nz/)
 
 ### Project Introduction
 

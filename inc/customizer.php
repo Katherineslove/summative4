@@ -123,6 +123,9 @@ function mytheme_customize_css()
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        opacity: 0.75;
+        height: 55vh;
+        width: 100vw;
     }
 
     .aboutSection {
