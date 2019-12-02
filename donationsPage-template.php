@@ -63,7 +63,7 @@ Template Post Type: page
                         <div class="form-group mt-3">
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Add your message here..."></textarea>
                         </div>
-                        <div class="row  d-flex justify-content-center">
+                        <div class="row d-flex justify-content-center">
                             <button type="submit" class="btn btnColour">Submit</button>
                         </div>
                     </form>
