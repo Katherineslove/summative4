@@ -94,11 +94,15 @@
     padding-right: 2.5rem !important;
 }
 
-/* .headerImage {
+.headerImage {
+    background-image: url("../images/stjohns_1109.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     opacity: 0.75;
     height: 55vh;
     width: 100vw;
-} */
+}
 
 .aboutImage {
     background-image: url("../images/ambobag.jpg");
