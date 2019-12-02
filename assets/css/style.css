@@ -236,6 +236,45 @@ p {
     margin-right: 4%;
 }
 
+.descriptionSection{
+    width: 30vw;
+    position: absolute;
+    top: 10%;
+    right: 8.6%;
+}
+
+.single_add_to_cart_button {
+    background-color: #f6b243 !important;
+}
+
+.singleProductTitle {
+    margin-top: 5%;
+    width: 25vw;
+    height: 4vh;
+    background-color: blue;
+    position: relative;
+}
+
+.price{
+    margin-top: 10%;
+    width: 23vw;
+    height: 4vh;
+    position: relative;
+    right: 8%;
+}
+
+.relatedProducts {
+    position: absolute;
+    top: 59%;
+}
+
+.addToCartForm{
+    position: absolute;
+    top: 35%;
+    right: 39%;
+}
+
+
 @media only screen and (max-width: 1450px) {
     .logo{
         left: 0;
