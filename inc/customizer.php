@@ -118,8 +118,12 @@ function mytheme_customize_css()
 {
     ?>
     <style type="text/css">
+
     .aboutSection {
-        background-color: <?php echo get_theme_mod('2019_aboutText', '#ffffff');  ?>;
+        background-image: url("../images/ambobag.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .servicesSection {
