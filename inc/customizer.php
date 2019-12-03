@@ -41,6 +41,17 @@ function mytheme_customize_register($wp_customize) {
         'settings'   => '2019servicesBackgroundDisplay',
         'context'    => '2019_servicesBackgroundDisplay'
     )));
+
+    //-----------------ABOUT PAGE IMAGE------------------
+    $wp_customize->add_setting( '2019aboutImageDisplay' , array(
+        'transport'   => 'refresh',
+    ) );
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize,'2019_aboutImageDisplay',array(
+        'label'      => __('About Page Image', '2019stJohn' ),
+        'section'    => '2019headerImage',
+        'settings'   => '2019aboutImageDisplay',
+        'context'    => '2019_aboutImageDisplay'
+    )));
 }
 add_action('customize_register', 'mytheme_customize_register');
 function mytheme_customize_css()
@@ -60,6 +71,14 @@ function mytheme_customize_css()
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    .aboutImage {
+        background-image: url(<?php echo get_theme_mod('2019aboutImageDisplay'); ?>);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
     }
     </style>
     <?php
