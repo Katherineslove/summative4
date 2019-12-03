@@ -13,7 +13,18 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
-
+                            <?php
+                            wp_nav_menu( array(
+                                'theme_location'    => 'top_navigation',
+                                'depth'             => 2,
+                                'container'         => 'div',
+                                'container_class'   => 'collapse navbar-collapse navText',
+                                'container_id'      => 'top_navigation',
+                                'menu_class'        => 'nav navbar-nav',
+                                'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                                'walker'            => new WP_Bootstrap_Navwalker(),
+                            ) );
+                            ?>
                         </ul>
                     </div>
                 </nav>
