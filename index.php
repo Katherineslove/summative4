@@ -8,7 +8,7 @@
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <div class="logo">
                         <?php if (get_theme_mod('2019logoImageDisplay')): ?>
-                            <img src="<?php echo get_theme_mod('2019logoImageDisplay');  ?>"class="logoImage img-fluid">
+                            <img src="<?php echo get_theme_mod('2019logoImageDisplay');  ?>"class="img-fluid">
                         <?php else: ?>
                             <a class="navbar-brand" href="index.php"><?php echo get_bloginfo('name'); ?></a>
                         <?php endif; ?>
