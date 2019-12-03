@@ -2,6 +2,8 @@ h1, p {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* --------------LOGO------------------- */
+
 .logo{
     position: relative;
     right: 5%;
@@ -13,9 +15,14 @@ h1, p {
     position: relative;
 }
 
+/* -----------ABOUT SECTION------------- */
+
 .aboutSection p {
     font-size: 14px;
 }
+
+/* ----------SERVICES SECTION---------- */
+
 
 .servicesHeading {
     left: 24%;
@@ -37,6 +44,9 @@ h1, p {
     text-align: center;
     color: white !important;
 }
+
+/* --------------FOOTER---------------- */
+
 
 .footerNav{
     list-style: none;
@@ -65,6 +75,8 @@ h1, p {
     left: 56%;
 }
 
+/* --------------SHOP TITLE--------------- */
+
 .shopTitle {
     text-align: center;
     width: 69vw;
@@ -72,6 +84,9 @@ h1, p {
     position: relative;
     margin-top: 2%;
 }
+
+/* --------------PRODUCTS CARD------------ */
+
 
 .productCard{
     border: 1px solid black;
@@ -89,4 +104,31 @@ h1, p {
 .productCard img{
     padding: 5%;
     border-bottom: 1px solid black;
+}
+
+/* --------------BUTTONS------------------- */
+
+
+.proceedButton a{
+    background-color: #f6b243 !important;
+}
+
+.orderButton{
+    background-color: #f6b243 !important;
+}
+
+.addButton {
+    background-color: #464646 !important;
+    box-shadow: 0 0 3px 0 black !important;
+    left: 16% !important;
+    position: relative !important;
+    margin-bottom: 11% !important;
+    color: white !important;
+    border-radius: 0 !important;
+    font-family: 'Montserrat', sans-serif !important;
+
+}
+
+.single_add_to_cart_button {
+    background-color: #f6b243 !important;
 }
