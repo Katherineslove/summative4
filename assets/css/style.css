@@ -21,3 +21,28 @@
 .copyright {
     color: white;
 }
+
+.aboutSection p {
+    font-size: 14px;
+}
+
+.servicesHeading {
+    left: 24%;
+    position: relative;
+}
+
+.servicesMenu {
+    position: relative;
+    left: 24%;
+    margin-bottom: 5%;
+}
+
+.servicesLinks li {
+    margin-top: 4%;
+    background-color: black;
+}
+
+.servicesLinks a {
+    text-align: center;
+    color: white !important;
+}
