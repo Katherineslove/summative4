@@ -19,11 +19,13 @@ function mytheme_customize_css()
 {
     ?>
     <style type="text/css">
-        .headerImage {
-            background-image: url("./images/ambobag.jpg");
-            height: 50vh;
-            width: 100vw;
-        }
+    .headerImage {
+        background-image: url(<?php echo get_theme_mod('2019headerImageDisplay'); ?>);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+    }
     </style>
     <?php
 }
