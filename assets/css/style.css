@@ -1,3 +1,14 @@
+.logo{
+    position: relative;
+    right: 5%;
+}
+
+.logo img{
+    width: 23vw;
+    height: 10vh;
+    position: relative;
+}
+
 .aboutSection p {
     font-size: 14px;
 }
