@@ -57,7 +57,7 @@
                     <nav class="navbar navbar-expand-md navbar-light servicesNav p-0 " role="navigation">
 
                         <div class="servicesLinks">
-                            <h1 class="servicesHeading">OUR SERVICES</h1>
+                            <h1><?php echo get_theme_mod('2019servicesHeading') ?></h1>
                             <?php
                             wp_nav_menu( array(
                                 'theme_location'    => 'services_menu',

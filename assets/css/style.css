@@ -4,11 +4,6 @@ h1, p {
 
 /* --------------LOGO------------------- */
 
-.logo{
-    position: relative;
-    right: 5%;
-}
-
 .logo img{
     width: 23vw;
     height: 10vh;
@@ -207,17 +202,51 @@ left: 30%;
 position: relative;
 } */
 
-@media only screen and (max-width: 770px) {
+@media only screen and (min-width: 760px) {
+    .headerImage {
+        height: 38vh !important;
+    }
+
+    /* --------------LOGO------------------- */
+
+    .logo img{
+        width: 20vw;
+        height: 10vh;
+        position: relative;
+    }
+
+    /* ----------SERVICES SECTION---------- */
+
+    .servicesHeading {
+        left: 34%;
+        width: 50%;
+    }
+
+    .servicesMenu {
+        position: relative;
+        margin-bottom: 5%;
+    }
+
+    .servicesSection{
+        left: 11%;
+        height: 45vh !important;
+    }
+
+    .servicesLinks li {
+        width: 23%  !important;
+        padding: 5% !important;
+        margin-right: 3% !important;
+    }
+
     /* --------------FOOTER---------------- */
 
     .footerNav{
         position: relative;
-        right: 10%;
+        right: 15  %;
     }
 
     .copyright {
-        width: 29vw;
-        right: 10%;
+        width: 26vw;
     }
 
 }

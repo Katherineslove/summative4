@@ -42,6 +42,19 @@ function mytheme_customize_register($wp_customize) {
         'context'    => '2019_servicesBackgroundDisplay'
     )));
 
+
+    $wp_customize->add_setting( '2019servicesHeading' , array(
+        'transport'   => 'refresh',
+    ) );
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize,'2019_servicesHeading',array(
+        'label'      => __('Services Background Image', '2019stJohn' ),
+        'section'    => '2019servicesBackground',
+        'settings'   => '2019servicesHeading',
+        'type'       => 'text',
+        'context'    => '2019_servicesHeading'
+    )));
+
     //-----------------ABOUT PAGE IMAGE------------------
     $wp_customize->add_setting( '2019aboutImageDisplay' , array(
         'transport'   => 'refresh',
@@ -82,6 +95,10 @@ function mytheme_customize_css()
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    .servicesHeading {
+        <?php echo get_theme_mod('2019servicesHeading'); ?>);
     }
 
     .aboutImage {
