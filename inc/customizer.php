@@ -48,7 +48,7 @@ function mytheme_customize_register($wp_customize) {
     ) );
 
     $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize,'2019_servicesHeading',array(
-        'label'      => __('Services Background Image', '2019stJohn' ),
+        'label'      => __('Services Title', '2019stJohn' ),
         'section'    => '2019servicesBackground',
         'settings'   => '2019servicesHeading',
         'type'       => 'text',
@@ -98,6 +98,7 @@ function mytheme_customize_css()
     }
 
     .servicesHeading {
+        position: relative;
         <?php echo get_theme_mod('2019servicesHeading'); ?>);
     }
 
