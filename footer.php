@@ -1,8 +1,8 @@
 <?php if(has_nav_menu( 'bottom_navigation' )): ?>
     <footer class="bg-dark text-white p-5">
         <div class="container">
-            <div class="row">
-                <div class="col-9">
+            <div class="row w-100">
+                <div class="col-8 d-none d-sm-block">
                     <?php wp_nav_menu( array(
                         'theme_location'  => 'bottom_navigation',
                         'container'       => '',
