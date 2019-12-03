@@ -6,7 +6,13 @@
         <div class="w-100 h-100" style="background: rgba(255,255,255, 0.3) !important;">
             <?php if(has_nav_menu( 'top_navigation' )): ?>
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a class="navbar-brand" href="index.php"><?php echo get_bloginfo('name'); ?></a>
+                    <div class="logo">
+                        <?php if (get_theme_mod('2019logoImageDisplay')): ?>
+                            <img src="<?php echo get_theme_mod('2019logoImageDisplay');  ?>"class="logoImage img-fluid">
+                        <?php else: ?>
+                            <a class="navbar-brand" href="index.php"><?php echo get_bloginfo('name'); ?></a>
+                        <?php endif; ?>
+                    </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
