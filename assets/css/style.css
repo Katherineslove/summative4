@@ -85,6 +85,15 @@ h1, p {
     margin-top: 2%;
 }
 
+.singleProductTitle {
+    text-align: center;
+    width: 69vw;
+    left: 14%;
+    position: relative;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
 .cartTitle {
     text-align: center;
     width: 69vw;
@@ -125,7 +134,15 @@ h1, p {
 }
 
 /* --------------BUTTONS------------------- */
-
+.price{
+    background-color: #464646 !important;
+    box-shadow: 0 0 3px 0 black !important;
+    width: 24% !important;
+    text-align: center;
+    color: white !important;
+    left: 65%;
+    position: relative;
+}
 
 .proceedButton a{
     background-color: #464646 !important;
@@ -149,16 +166,30 @@ h1, p {
 
 }
 
-.single_add_to_cart_button {
+.singleProductButton {
     background-color: #464646 !important;
+    box-shadow: 0 0 3px 0 black !important;
+    left: 16% !important;
+    position: relative !important;
+    margin-bottom: 5% !important;
+    margin-top: 5% !important;
+    color: white !important;
+    border-radius: 0 !important;
+    font-family: 'Montserrat', sans-serif !important;
+
 }
 
 /* ----------CHECKOUT FIELDS------------------- */
 
-/* .checkoutFields {
-width: 65vw;
-} */
-
 .billingFields p{
     box-shadow: 0 0 3px 0 black !important;
+}
+
+/* ----------SINGLE PRODUCTS------------------- */
+
+.description {
+    display:block !important;
+    text-align: center;
+    position: relative;
+    bottom: 9%;
 }
