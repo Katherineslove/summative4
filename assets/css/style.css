@@ -75,7 +75,7 @@ h1, p {
     left: 56%;
 }
 
-/* --------------SHOP TITLE--------------- */
+/* --------------TITLES--------------- */
 
 .shopTitle {
     text-align: center;
@@ -83,6 +83,15 @@ h1, p {
     left: 14%;
     position: relative;
     margin-top: 2%;
+}
+
+.cartTitle {
+    text-align: center;
+    width: 69vw;
+    left: 14%;
+    position: relative;
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 /* --------------PRODUCTS CARD------------ */
@@ -110,11 +119,13 @@ h1, p {
 
 
 .proceedButton a{
-    background-color: #f6b243 !important;
+    background-color: #464646 !important;
+    box-shadow: 0 0 3px 0 black !important;
+    left: 23% !important;
 }
 
 .orderButton{
-    background-color: #f6b243 !important;
+    background-color: #464646 !important;
 }
 
 .addButton {
@@ -130,5 +141,5 @@ h1, p {
 }
 
 .single_add_to_cart_button {
-    background-color: #f6b243 !important;
+    background-color: #464646 !important;
 }
