@@ -1,9 +1,3 @@
-<?php
-/*
-Template Name: Shop Page
-Template Post Type: page
-*/
-?>
 <?php get_header(); ?>
 
 <div class="container-fluid p-0">
