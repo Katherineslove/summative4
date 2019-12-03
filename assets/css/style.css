@@ -1,3 +1,7 @@
+h1, p {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .logo{
     position: relative;
     right: 5%;
@@ -59,6 +63,14 @@
     width: 60vw;
     position: relative;
     left: 56%;
+}
+
+.shopTitle {
+    text-align: center;
+    width: 69vw;
+    left: 14%;
+    position: relative;
+    margin-top: 2%;
 }
 
 .productCard{
