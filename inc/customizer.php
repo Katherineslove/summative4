@@ -13,6 +13,17 @@ function mytheme_customize_register($wp_customize) {
         'settings'   => '2019headerImageDisplay',
         'context'    => '2019_headerImageDisplay'
     )));
+
+    //-----------------LOGO SECTIONS------------------
+    $wp_customize->add_setting( '2019logoImageDisplay' , array(
+        'transport'   => 'refresh',
+    ) );
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize,'2019_logoImageDisplay',array(
+        'label'      => __('Logo Image', '2019stJohn' ),
+        'section'    => '2019headerImage',
+        'settings'   => '2019logoImageDisplay',
+        'context'    => '2019_logoImageDisplay'
+    )));
 }
 add_action('customize_register', 'mytheme_customize_register');
 function mytheme_customize_css()
