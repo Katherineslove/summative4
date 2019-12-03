@@ -15,3 +15,21 @@ function add_google_fonts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'add_google_fonts' );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+require_once get_template_directory() . '/inc/customizer.php';
