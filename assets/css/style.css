@@ -60,3 +60,21 @@
     position: relative;
     left: 56%;
 }
+
+.productCard{
+    border: 1px solid black;
+    padding: 2%;
+}
+
+.productCard a {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1em;
+}
+
+.productCard img{
+    padding: 5%;
+    border-bottom: 1px solid black;
+}
