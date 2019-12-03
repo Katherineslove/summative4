@@ -140,7 +140,7 @@ h1, p {
     width: 24% !important;
     text-align: center;
     color: white !important;
-    left: 65%;
+    left: 58%;
     position: relative;
 }
 
@@ -169,7 +169,7 @@ h1, p {
 .singleProductButton {
     background-color: #464646 !important;
     box-shadow: 0 0 3px 0 black !important;
-    left: 16% !important;
+    left: 33% !important;
     position: relative !important;
     margin-bottom: 5% !important;
     margin-top: 5% !important;
@@ -192,4 +192,17 @@ h1, p {
     text-align: center;
     position: relative;
     bottom: 9%;
+}
+
+.quantity {
+    margin-top: -11% !important;
+}
+
+.quantity input{
+    width: 56% !important;
+    background-color: #464646 !important;
+    box-shadow: 0 0 3px 0 black !important;
+    color: white !important;
+    left: 30%;
+    position: relative;
 }

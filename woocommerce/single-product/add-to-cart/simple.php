@@ -41,7 +41,7 @@ if ( $product->is_in_stock() ) : ?>
 			'input_value' => isset( $_POST['quantity'] ) ? wc_stock_amount( wp_unslash( $_POST['quantity'] ) ) : $product->get_min_purchase_quantity(), // WPCS: CSRF ok, input var ok.
 		) );
 
-		do_action( 'woocommerce_after_add_to_cart_quantity' );
+		do_action( 'woocommerce_after_add_to_cart_quantity');
 		?>
 
 		<button type="submit" name="add-to-cart" value="<?php echo esc_attr( $product->get_id() ); ?>" class="single_add_to_cart_button button alt singleProductButton"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
