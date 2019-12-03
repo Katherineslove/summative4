@@ -94,6 +94,15 @@ h1, p {
     margin-bottom: 5%;
 }
 
+.checkoutTitle {
+    text-align: center;
+    width: 69vw;
+    left: 10%;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 /* --------------PRODUCTS CARD------------ */
 
 
@@ -142,4 +151,14 @@ h1, p {
 
 .single_add_to_cart_button {
     background-color: #464646 !important;
+}
+
+/* ----------CHECKOUT FIELDS------------------- */
+
+/* .checkoutFields {
+width: 65vw;
+} */
+
+.billingFields p{
+    box-shadow: 0 0 3px 0 black !important;
 }
