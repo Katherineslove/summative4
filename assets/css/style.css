@@ -195,14 +195,29 @@ h1, p {
 }
 
 /* .quantity {
-    margin-top: -11% !important;
+margin-top: -11% !important;
 } */
 
 /* .quantity input{
-    width: 56% !important;
-    background-color: #464646 !important;
-    box-shadow: 0 0 3px 0 black !important;
-    color: white !important;
-    left: 30%;
-    position: relative;
+width: 56% !important;
+background-color: #464646 !important;
+box-shadow: 0 0 3px 0 black !important;
+color: white !important;
+left: 30%;
+position: relative;
 } */
+
+@media only screen and (max-width: 770px) {
+    /* --------------FOOTER---------------- */
+
+    .footerNav{
+        position: relative;
+        right: 10%;
+    }
+
+    .copyright {
+        width: 29vw;
+        right: 10%;
+    }
+
+}
