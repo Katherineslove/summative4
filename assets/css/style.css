@@ -347,8 +347,7 @@ position: relative;
     }
 
     .servicesSection{
-        left: 11%;
-        height: 45vh !important;
+        height: 85vh !important;
     }
 
     .servicesLinks li {
@@ -374,9 +373,8 @@ position: relative;
 
     /* --------------FOOTER---------------- */
 
-    .footerNav{
-        position: relative;
-        right: 15  %;
+    .footerSection{
+        top: 10%;
     }
 
     .copyright {

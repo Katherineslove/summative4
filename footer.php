@@ -1,5 +1,5 @@
 <?php if(has_nav_menu( 'bottom_navigation' )): ?>
-    <footer class="bg-dark text-white p-5">
+    <footer class="bg-dark text-white p-5 footerSection">
         <div class="container">
             <div class="row w-100">
                 <div class="col-8 d-none d-sm-block">
