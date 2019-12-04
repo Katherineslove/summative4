@@ -77,9 +77,10 @@ function mytheme_customize_register($wp_customize) {
         'context'    => '2019_contactImageDisplay'
     )));
 }
+
 add_action('customize_register', 'mytheme_customize_register');
-function mytheme_customize_css()
-{
+
+function mytheme_customize_css(){
     ?>
     <style type="text/css">
     .headerImage {
@@ -120,5 +121,7 @@ function mytheme_customize_css()
     </style>
     <?php
 }
+
 add_action('wp_head', 'mytheme_customize_css');
+
 ?>
