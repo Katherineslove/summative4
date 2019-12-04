@@ -25,6 +25,7 @@ p {
 
 .newsTitle {
     font-size: 20px;
+    font-weight: 400;
 }
 
 .newsButton{
@@ -250,6 +251,15 @@ p {
         border-bottom: .5px solid black;
     }
 
+
+    /* -----------NEWS SECTION------------- */
+
+    .newsButton{
+        width: 23%;
+        padding: 1%;
+        left: 39%;
+    }
+
     /* ----------SERVICES SECTION---------- */
 
     .servicesHeading {
@@ -373,6 +383,14 @@ p {
 
     .servicesLinks a {
         font-size: 1.34rem;
+    }
+
+    /* -----------NEWS SECTION------------- */
+
+    .newsButton{
+        width: 23%;
+        padding: 1%;
+        left: 39%;
     }
 
     /* --------------BUTTONS------------------- */
