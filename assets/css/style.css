@@ -225,6 +225,101 @@ position: relative;
     /* -----------ABOUT SECTION------------- */
     .aboutSection {
         width: 90%;
+        margin-top: 3%;
+        margin-bottom: 2%;
+    }
+
+    .aboutSection p {
+        font-size: 14px;
+    }
+
+    /* -----------SINGLE PRODUCT PAGE------------- */
+
+    .singleProductSection p{
+        font-size: 20px;
+    }
+
+    .cartItem {
+        border-bottom: .5px solid black;
+    }
+
+    /* ----------SERVICES SECTION---------- */
+
+    .servicesHeading {
+        left: 34%;
+    }
+
+    .servicesMenu {
+        margin-bottom: 0%;
+    }
+
+    .servicesSection{
+        left: 11%;
+        height: 45vh !important;
+    }
+
+    .servicesLinks li {
+        width: 30% !important;
+        padding: 7% !important;
+        margin-right: 3% !important;
+    }
+
+    .servicesLinks a {
+        font-size: 1.34rem;
+    }
+
+    /* --------------BUTTONS------------------- */
+    .proceedButton a{
+        left: 34% !important;
+    }
+
+    /* ----------CHECKOUT FIELDS------------------- */
+
+    .billingFields p{
+        margin-bottom: 3% !important;
+    }
+
+    /* --------------FOOTER---------------- */
+
+    .footerNav{
+        position: relative;
+        right: 15  %;
+    }
+
+    .copyright {
+        width: 26vw;
+    }
+
+}
+
+@media only screen and (min-width: 1020px) {
+    .headerImage {
+        height: 59vh !important;
+    }
+
+    .topNAV {
+        top: 10%;
+        width: 58vw;
+        height: 18vh;
+        left: 23%;
+    }
+
+    .navLinks {
+        left: 10%;
+        position: relative;
+    }
+
+    /* --------------LOGO------------------- */
+
+    .logo img{
+        width: 17vw;
+        height: 15vh;
+        position: relative;
+    }
+
+    /* -----------ABOUT SECTION------------- */
+    .aboutSection {
+
     }
 
     .aboutSection p {
