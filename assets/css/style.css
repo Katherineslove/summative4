@@ -230,6 +230,16 @@ position: relative;
         font-size: 14px;
     }
 
+    /* -----------SINGLE PRODUCT PAGE------------- */
+
+    .singleProductSection p{
+        font-size: 20px;
+    }
+
+    .cartItem {
+        border-bottom: .5px solid black;
+    }
+
     /* ----------SERVICES SECTION---------- */
 
     .servicesHeading {
@@ -253,6 +263,11 @@ position: relative;
 
     .servicesLinks a {
         font-size: 1.34rem;
+    }
+
+    /* --------------BUTTONS------------------- */
+    .proceedButton a{
+        left: 34% !important;
     }
 
     /* --------------FOOTER---------------- */
