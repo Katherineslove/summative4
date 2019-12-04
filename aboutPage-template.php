@@ -11,7 +11,7 @@ Template Post Type: page
     <div class="aboutImage w-100">
         <div class="w-100 h-100" style="background: rgba(255,255,255, 0.3) !important;">
             <?php if(has_nav_menu( 'top_navigation' )): ?>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-dark">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-dark topNAV">
                     <div class="logo">
                         <?php if (get_theme_mod('2019logoImageDisplay')): ?>
                             <img src="<?php echo get_theme_mod('2019logoImageDisplay');  ?>"class="img-fluid logoImage">
