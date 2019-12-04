@@ -221,6 +221,15 @@ position: relative;
         position: relative;
     }
 
+    /* -----------ABOUT SECTION------------- */
+    .aboutSection {
+        width: 90%;
+    }
+
+    .aboutSection p {
+        font-size: 14px;
+    }
+
     /* ----------SERVICES SECTION---------- */
 
     .servicesHeading {
