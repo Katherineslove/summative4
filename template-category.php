@@ -62,20 +62,20 @@
             ?>
             <div class="row m-0">
                 <div class="col">
-                    <div class="card m-4" style="width: 18rem;">
-                        <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+                    <div class="card mb-3">
+                        <article class="w-100 h-100" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                             <?php
                             if ( has_post_thumbnail() ) :
                                 the_post_thumbnail();
                             endif;
                             ?>
-                            <header class="entry-header">
-                                <h1 class="entry-title"><?php the_title(); ?></h1>
+                            <header class="entry-header my-3">
+                                <h1 class="entry-title newsTitle"><?php the_title(); ?></h1>
                             </header>
-                            <div class="entry-content">
+                            <div class="entry-content d-none d-sm-block">
                                 <?php the_excerpt(); ?>
-                                <a href="<?php the_permalink(); ?>">Read More</a>
                             </div>
+                            <a class="newsButton mb-2 d-flex justify-content-center" href="<?php the_permalink(); ?>">Read More</a>
                         </article>
                     </div>
                 </div>

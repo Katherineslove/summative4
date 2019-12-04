@@ -21,6 +21,22 @@ p {
     font-size: 14px;
 }
 
+/* -----------NEWS SECTION------------- */
+
+.newsTitle {
+    font-size: 20px;
+}
+
+.newsButton{
+    width: 36%;
+    background-color: #464646 !important;
+    box-shadow: 0 0 3px 0 black !important;
+    color: white;
+    padding: 2%;
+    left: 31%;
+    position: relative;
+}
+
 /* ----------SERVICES SECTION---------- */
 
 
