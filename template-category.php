@@ -63,7 +63,7 @@
             <div class="row m-0">
                 <div class="col">
                     <div class="card mb-3">
-                        <article class="w-100 h-100" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+                        <article class="w-100 h-100" id="post-<?php the_ID(); ?>" <?php post_class(); ?>
                             <?php
                             if ( has_post_thumbnail() ) :
                                 the_post_thumbnail();
