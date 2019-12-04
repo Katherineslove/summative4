@@ -370,6 +370,11 @@ p {
         margin-bottom: 3% !important;
     }
 
+    .billingFields{
+        left: 15%;
+        position: relative;
+    }
+
     /* ----------SINGLE PRODUCTS------------------- */
 
     .singleImage {
