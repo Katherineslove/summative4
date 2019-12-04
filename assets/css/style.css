@@ -1,4 +1,9 @@
-h1, p {
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+p {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -26,8 +31,9 @@ h1, p {
 
 .servicesMenu {
     position: relative;
-    left: 18%;
+    left: 14%;
     margin-bottom: 5%;
+    width: 75%;
 }
 
 .servicesLinks li {
@@ -219,12 +225,10 @@ position: relative;
 
     .servicesHeading {
         left: 34%;
-        width: 50%;
     }
 
     .servicesMenu {
-        position: relative;
-        margin-bottom: 5%;
+        margin-bottom: 0%;
     }
 
     .servicesSection{
@@ -233,9 +237,13 @@ position: relative;
     }
 
     .servicesLinks li {
-        width: 23%  !important;
-        padding: 5% !important;
+        width: 30% !important;
+        padding: 7% !important;
         margin-right: 3% !important;
+    }
+
+    .servicesLinks a {
+        font-size: 1.34rem;
     }
 
     /* --------------FOOTER---------------- */

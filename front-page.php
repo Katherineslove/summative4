@@ -51,12 +51,12 @@
     <?php endif; ?>
 
     <?php if (get_theme_mod('2019servicesBackgroundDisplay')): ?>
-        <div class="servicesBackground w-100">
+        <div class="servicesBackground w-100 ">
             <?php if (has_nav_menu( 'services_menu' )): ?>
-                <div class="row m-0 servicesSection">
-                    <nav class="navbar navbar-expand-md navbar-light servicesNav p-0 " role="navigation">
+                <div class="row m-0 servicesSection w-100">
+                    <nav class="navbar navbar-expand-md navbar-light servicesNav p-0 w-100" role="navigation">
 
-                        <div class="servicesLinks">
+                        <div class="servicesLinks w-100">
                             <h1><?php echo get_theme_mod('2019servicesHeading') ?></h1>
                             <?php
                             wp_nav_menu( array(
