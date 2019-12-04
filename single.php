@@ -3,7 +3,7 @@
 <div class="container-fluid p-0">
 
     <?php if(has_nav_menu( 'top_navigation' )): ?>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-dark">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-dark ">
             <div class="logo">
                 <?php if (get_theme_mod('2019logoImageDisplay')): ?>
                     <img src="<?php echo get_theme_mod('2019logoImageDisplay');  ?>"class="img-fluid logoImage">
@@ -25,7 +25,7 @@
                             'container'         => 'div',
                             'container_class'   => 'navText',
                             'container_id'      => 'top_navigation',
-                            'menu_class'        => 'nav navbar-nav',
+                            'menu_class'        => 'nav navbar-nav navLinks',
                             'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
                             'walker'            => new WP_Bootstrap_Navwalker(),
                         ) );

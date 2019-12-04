@@ -164,7 +164,6 @@ p {
     color: white !important;
     border-radius: 0 !important;
     font-family: 'Montserrat', sans-serif !important;
-
 }
 
 .singleProductButton {
@@ -196,18 +195,10 @@ p {
     bottom: 9%;
 }
 
-/* .quantity {
-margin-top: -11% !important;
-} */
-
-/* .quantity input{
-width: 56% !important;
-background-color: #464646 !important;
-box-shadow: 0 0 3px 0 black !important;
-color: white !important;
-left: 30%;
-position: relative;
-} */
+.quantity input{
+    box-shadow: 0 0 3px 0 black !important;
+    position: relative;
+}
 
 @media only screen and (min-width: 760px) {
     .headerImage {
@@ -327,9 +318,17 @@ position: relative;
     }
 
     /* -----------SINGLE PRODUCT PAGE------------- */
+    .price{
+        left: 60%;
+        width: 12% !important;
+        position: absolute;
+    }
 
-    .singleProductSection p{
-        font-size: 20px;
+    .singleProductButton {
+        bottom: 92.6%;
+        height: 2.9%;
+        left: 74% !important;
+        position: absolute !important;
     }
 
     .cartItem {
@@ -369,6 +368,16 @@ position: relative;
 
     .billingFields p{
         margin-bottom: 3% !important;
+    }
+
+    /* ----------SINGLE PRODUCTS------------------- */
+
+    .description {
+        position: absolute;
+        width: 59vw;
+        bottom: 75%;
+        left: 40%;
+        font-size: 22px;
     }
 
     /* --------------FOOTER---------------- */
