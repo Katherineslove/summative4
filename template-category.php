@@ -72,7 +72,7 @@
                             <header class="entry-header my-3">
                                 <h1 class="entry-title newsTitle"><?php the_title(); ?></h1>
                             </header>
-                            <div class="entry-content d-none d-sm-block">
+                            <div class="entry-content d-none d-sm-block mx-3">
                                 <?php the_excerpt(); ?>
                             </div>
                             <a class="newsButton mb-2 d-flex justify-content-center" href="<?php the_permalink(); ?>">Read More</a>
