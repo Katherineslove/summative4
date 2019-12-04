@@ -33,7 +33,7 @@ Template Post Type: page
                                     'container'         => 'div',
                                     'container_class'   => 'navText',
                                     'container_id'      => 'top_navigation',
-                                    'menu_class'        => 'nav navbar-nav',
+                                    'menu_class'        => 'nav navbar-nav navLinks',
                                     'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
                                     'walker'            => new WP_Bootstrap_Navwalker(),
                                 ) );
